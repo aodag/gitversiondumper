@@ -3,5 +3,6 @@
 gitversiondumper
 =========================
 """
+from . import git
 
-__version__ = '0.1'
+__version__ = git.get_version()

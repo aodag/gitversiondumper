@@ -34,3 +34,8 @@ class Git:
         if rev["dirty"]:
             version += "-{d:%Y%m%d}".format(d=datetime.now())
         return version
+
+
+def get_version():
+    git = Git()
+    return git.get_version()
