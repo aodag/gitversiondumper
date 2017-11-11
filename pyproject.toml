@@ -1,0 +1,13 @@
+
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "gitversiondumper"
+author = "Atsushi Odagiri"
+author-email = "aodagx@gmail.com"
+home-page = "https://github.com/aodag/gitversiondumper.py"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = [
+]
